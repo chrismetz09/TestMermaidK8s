@@ -1,4 +1,16 @@
-# Docsy Example
+# Log
+
+**06.07.2022**
+- Installed docsy-example 
+- Created [TestMermaidK8s repo](https://github.com/chrismetz09/TestMermaidK8s)
+- `hugo server` tested fine in chrome and firefox
+- Running `hugo v0.93.0-07469082+extended darwin/amd64 BuildDate=2022-02-28T08:30:42Z VendorInfo=gohugoio`
+- Updated to macos 12.4.
+
+
+---
+
+# Docsy example docs
 
 [Docsy][] is a [Hugo theme module][] for technical documentation sites, providing easy
 site navigation, structure, and more. This **Docsy Example Project** uses the Docsy
