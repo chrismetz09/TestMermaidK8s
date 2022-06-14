@@ -13,6 +13,20 @@ This is a placeholder page that shows you how to use this template site.
 
 The Overview is where your users find out about your project. Depending on the size of your docset, you can have a separate overview page (like this one) or put your overview contents in the Documentation landing page (like in the Docsy User Guide). 
 
+Figure 1 shows a diagram extracted from the K8s Diagram Guide.
+
+```mermaid
+graph LR
+    A[1. Use live editor<br> to create/edit<br>diagram] -->
+    B[2. Store diagram<br>URL somewhere] -->
+    C[3. Copy Mermaid code<br>to page markdown file] -->
+    D[4. Add caption]
+ 
+    classDef box fill:#fff,stroke:#000,stroke-width:1px,color:#000;
+    class A,B,C,D box
+```
+Figure 1 - Mermaid Diagram
+
 Try answering these questions for your user in this page:
 
 ## What is it?

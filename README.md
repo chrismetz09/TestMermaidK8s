@@ -7,6 +7,12 @@
 - Running `hugo v0.93.0-07469082+extended darwin/amd64 BuildDate=2022-02-28T08:30:42Z VendorInfo=gohugoio`
 - Updated to macos 12.4.
 
+**06.13.2022**
+- updated to Mac Monterey 12.4
+- restart macos because [open hugo docsy-example issue](https://github.com/google/docsy/issues/805). `Hugo server -D` works
+- added mermaid-inline (no shortcode) diagram to `content/en/docs/Overview/_index.md`. Just mermaid code block shown, no diagram render.
+- added `[params.mermaid]
+  enable = true` and `guessSyntax = "false" to `config.toml` per [mermaid docsys look feel](https://www.docsy.dev/docs/adding-content/diagrams-and-formulae/) - diagram rendered properly in chrome and firefox.
 
 ---
 
